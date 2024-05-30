@@ -1,0 +1,24 @@
+q1)a program to count the number of upper-case alphabets present in a text file “PYTHON.TXT”.
+
+def countupper():
+upper=0
+f=open("python.txt",r)
+data=f.read()
+for i in data:
+if i.isupper()==TRUE:
+upper++
+print("total number of upper case is", upper)
+
+countupper
+
+
+
+q2)A text file “PYTHON.TXT” contains alphanumeric text. Write a program that reads this text file and 
+writes to another file “PYTHON1.TXT” entire file except the numbers or digits in the file.
+
+f=open("pyhton.txt",r)
+data=f.read()
+for i in data:
+if i.isalphabates=="True"
+f1=open("python1.txt",w)
+f1.wite(i)

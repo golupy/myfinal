@@ -1,0 +1,50 @@
+a={"name":"eti","age":30}
+#print(type(a))
+##print(a)
+k=a.keys()
+a.clear()
+#print(a)
+d={
+    'name':'eti',
+    'age':30,
+    'mob':123,
+    'address':'indore',
+    'email':['k@gmail.com','e@gmail.com']
+}
+mob=d.get('mob')
+#print(mob)
+s=d.pop('age')
+#print(s)
+#print(d)
+last_entry=d.popitem()
+#print(last_entry)
+d1={}
+candidate=["neha","kirti","tarun","aditi","riya"]
+d2=d1.fromkeys(candidate,"professor")
+#print(d2)
+
+v=d2.setdefault('tarun','assosicate prof')
+print(v)
+d.setdefault('pan','drbpk')
+#print(d)
+
+d4={"father":"ramesh chandra","mother":"santosh"}
+d.update(d4)
+#print(d)
+#traversing way 1
+for i in d:
+    print(i)
+#traversing way2
+for i in d:
+    print(i,d[i])
+
+for i in d.keys():
+    print(i)
+for i in d.values():
+    print(i)
+newa=d4.items()
+print(newa)
+for i,j in newa:
+    print(i,j)
+for i,j  in d.items():
+    print(i,j)
