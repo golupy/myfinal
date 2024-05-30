@@ -2,3 +2,4 @@ i want to write some code
 a b c d e f
 
 some code added to check fetch command functionality
+fetch command only download the modified files
